@@ -2,11 +2,13 @@
 
 Class MUser extends CI_Model
 {
+    private $_tbl_user = "users";
 
     public function __construct()
     {
 
         $this->load->database();
+
     }
 
 
@@ -101,7 +103,7 @@ Class MUser extends CI_Model
     //test
     public function update_location($params,$id){
 
-        $this->db->set('location',"geomfromtext('POINT($params[lng] $params[lat])')", FALSE);
+        $this->db->set('location',"geomfromtext('POINT($params[lat] $params[lng])')", FALSE);
         $this->db->where('id',$id);
         $this->db->update('users');
         $id = $this->db->insert_id();

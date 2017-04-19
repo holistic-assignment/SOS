@@ -14,8 +14,8 @@ class Messages extends MY_Controller
     }
 
     public function sendCallmail(){
-        $long  = $this->input->post('lng');
-        $lat = $this->input->post('lat');
+        $long  = $this->input->post(LONGITUDE);
+        $lat = $this->input->post(LATITUDE);
         if ($this->is_post_method()) {
             $this->response_message($this->message('E001_ERROR'), 'E001');
         }

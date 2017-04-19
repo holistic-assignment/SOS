@@ -24,7 +24,7 @@ Class MMessage extends CI_Model
     {
         $type =1; //call message
         $content = "GSMAT : $id \n"
-                  ."Message : your user at longitude: $params[lng] and lattitude: $params[lat] \n";
+                  ."Message : your user at longitude: $params[lat] and lattitude: $params[lng] \n";
         if(!empty($params['message'])){
             $type = 2;
             $content .="User message: $params[message]";
