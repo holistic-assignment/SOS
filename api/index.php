@@ -312,4 +312,9 @@ switch (ENVIRONMENT)
  *
  * And away we go...
  */
+
+if (!ini_get('display_errors')) {
+    ini_set('display_errors', '1');
+}
+error_reporting(E_ALL);
 require_once BASEPATH.'core/CodeIgniter.php';

@@ -8,10 +8,8 @@ class Users extends MY_Controller
     public function __construct()
     {
         parent::__construct();
-        $this->load->model(array('MUser'));
-
+        $this->load->model(array('MUser','MDeviceInfo'));
         $this->load->helper(array('email'));
-
     }
 
 
@@ -22,13 +20,26 @@ class Users extends MY_Controller
         }
         $params = $this->input->post();
         $password = $this->input->post('password');
+        $device_id = $this->input->post('device_id');
+        $device_token = $this->input->post('device_token');
+        if(empty($device_id)){
+            $this->response_message($this->message('E009_ERROR'), 'E009');
+        }
 
-        if (empty($this->input->post('password'))) {
+        if(empty($device_token)){
+            $this->response_message($this->message('E010_ERROR'), 'E010');
+        }
+
+        if (empty($password)) {
             $this->response_message($this->message('E002_ERROR'), 'E002');
         }
-        if ($current_user = $this->MUser->checkUserExist('email_username', $params)) {
+
+
+        if ($current_user = $this->MUser->checkUserExist('email', $params)) {
             if ($current_user->password == md5($password)) {
-                $this->response_message(null, null, array("status" => "OK", "token" => $current_user->token));
+                $token = $this->MUser->updateToken(intval($current_user->id));
+                $this->MDeviceInfo->updateDeviceInfo($params,intval($current_user->id));
+                $this->response_message("login successful", "200", 1, $token);
             } else {
                 $this->response_message($this->message('E003_ERROR'), 'E003');
             }
@@ -46,23 +57,31 @@ class Users extends MY_Controller
         }
         $params = $this->input->post();
 
+        if(empty($params['device_id'])){
+            $this->response_message($this->message('E009_ERROR'), 'E009');
+        }
+
+        if(empty($params['device_token'])){
+            $this->response_message($this->message('E010_ERROR'), 'E010');
+        }
+        if(!is_numeric($params['os'])){
+            $this->response_message($this->message('E015_ERROR'), 'E015');
+        }
         if (!valid_email($params['email'])) {
             $this->response_message($this->message('E005_ERROR'), 'E005');
         }
         if (empty($params["password"])) {
             $this->response_message($this->message('E002_ERROR'), 'E002');
         }
-        if (empty($params["username"])) {
+        if (empty($params["name"])) {
             $this->response_message($this->message('E006_ERROR'), 'E006');
-        }
-        if ($this->MUser->checkUserExist('username', $params)) {
-            $this->response_message($this->message('E007_ERROR'), 'E007');
         }
         if ($this->MUser->checkUserExist('email', $params)) {
             $this->response_message($this->message('E008_ERROR'), 'E008');
         }
         if ($result = $this->MUser->createUser($params)) {
-            $this->response_message(null, null, array("status" => "OK", "token" => $result->token));
+
+            $this->response_message("register successful", "200", 1, $result->token);
         } else {
             $this->response_message();
         }
@@ -73,13 +92,10 @@ class Users extends MY_Controller
     public function test()
     {
         $params = $this->input->post();
-        $result = $this->MUser->createUser1($params);
+
     }
 
 
-    private function message($message)
-    {
-        return $this->lang->line($message);
-    }
+
 
 }

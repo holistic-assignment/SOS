@@ -26,7 +26,7 @@ Class MUser extends CI_Model
         if(!empty($params[$name])) {
             $params = $this->email_usernameSerialize($params,$name);
             $query = $this->db
-                ->select('email,username,password,token')
+                ->select('id,email,name,password,token')
                 ->or_where($params)
                 ->get('users');
             while($query->num_rows()>0){
@@ -36,24 +36,42 @@ Class MUser extends CI_Model
         return FALSE;
     }
 
+    public function updateToken($id)
+    {
+        $token = password_hash(round(microtime(true)*1000),PASSWORD_BCRYPT,array("cost"=>10));
+        $this->db->set('token', $token);
+        $this->db->where('id', $id);
+        $this->db->update('users');
+        return $token;
+   }
+
+   public function getId($params){
+       return intval($this->getAuth($params)->id);
+   }
+
+
     public function getAuth($params){
-        return $this->db->where(array("token"=>$params['token']))->get('users')->row();
+        $token = $params['token'];
+        $result =  $this->db->where(array("token"=>stripcslashes($token)))->get('users')->row();
+        return $result;
+    }
+
+    public function getUserIdByToken($params){
+
+    }
+
+    public function update_token($id){
+
+
     }
 
 
-
     private function email_usernameSerialize($params,$name){
-        if($name == "email_username") {
-            return array(
-                "username" => $params['email_username'],
-                "email" => $params['email_username']
-            );
-        }else
-        {
+
             return array(
                 $name => $params[$name]
             );
-        }
+
     }
 
     private function serializeMember($params)
@@ -71,22 +89,31 @@ Class MUser extends CI_Model
     }
 
     private function getTokenById($id){
-       return $this->db->select('token')->where("id",$id)->get("users")->row();
+       return $this->db->select('token,id')->where("id",$id)->get("users")->row();
 
     }
 
     private function updateLocation(){
-        
+
     }
-    public function createUser1($params){
-        $params = $this->serializeMember($params);
-        $params['password'] = md5($params['password']);
-        $this->db->set('token',password_hash(round(microtime(true) * 1000),PASSWORD_BCRYPT,array("cost"=>10)));
-        $this->db->set('location',"Select ST_GeomFromText('POINT(-79.4609576808001 43.9726680183837)', 4326)");
-        $this->db->insert('users', $params);
-        var_dump($this->db->last_query());
+
+
+    //test
+    public function update_location($params,$id){
+
+        $this->db->set('location',"geomfromtext('POINT($params[lng] $params[lat])')", FALSE);
+        $this->db->where('id',$id);
+        $this->db->update('users');
         $id = $this->db->insert_id();
-        return $this->getTokenById($id);
+        //return $this->getTokenById($id);
+        return $id;
+    }
+
+
+    public function getLocation(){
+
+        $test = $this->db->where("id",11)->get("users")->row();
+        return $test;
     }
 
 }

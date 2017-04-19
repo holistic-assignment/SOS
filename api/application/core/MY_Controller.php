@@ -9,14 +9,11 @@ class MY_Controller extends CI_Controller
         $this->load->model(array('MUser'));
         $this->auth();
     }
-
-
     protected function is_post_method()
     {
-        return empty($this->input->post());
-
+        $checkPost =  $this->input->post();
+        return empty($checkPost);
     }
-
     private function auth()
     {
         if ($this->skip_auth()) {
@@ -26,17 +23,18 @@ class MY_Controller extends CI_Controller
 
         $where['token'] = isset($params['token']) ? $params["token"] : "";
         if (!$this->MUser->getAuth($where)) {
-            $this->response_message(null, null, array("message" => "Un-Authenticate"));
+            $this->response_message($this->lang->line('E000_ERROR'),'E000');
         };
     }
 
     private function skip_auth()
     {
-        $skipclass = array("users");
-        $skipmethod = array("login", 'register');
+        $skipclass = array("users","webview");
+        $skipmethod = array("login", 'register','supportcenter','appinfo');
         $class = strtolower($this->router->fetch_class());
         $method = strtolower($this->router->fetch_method());
         if (in_array($class, $skipclass)) {
+
             if (in_array($method, $skipmethod)) {
                 return TRUE;
             }
@@ -44,17 +42,30 @@ class MY_Controller extends CI_Controller
         return FALSE;
     }
 
-    protected function response_message($message = "Unknown Error", $code = 0, $custom = array())
+    public function response_message($message = "Unknown Error", $code = 0, $flag=0,$token="",$data = array())
     {
-        if (empty($custom)) {
+        if ($flag == 0) {
             $response['status'] = "Failed";
             $response['code'] = $code;
             $response['message'] = $message;
+            $response['data'] = $data;
+            header('Content-Type: application/json');
+            echo json_encode($response);
+            exit;
+        }else {
+            $response['status'] = 'OK';
+            $response['code'] = $code;
+            $response['message'] = $message;
+            $response['token']= $token;
+            $response['data']= $data;
             header('Content-Type: application/json');
             echo json_encode($response);
             exit;
         }
-        echo json_encode($custom);
-        exit;
+    }
+
+    public function message($message)
+    {
+        return $this->lang->line($message);
     }
 }
