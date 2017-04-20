@@ -31,7 +31,21 @@
             <h1 class="header__heading" id="page-title">Title</h1>
         </header>
         <table class="collection-data" aria-labelledby="page-title">
+            <th class="cell-label cell-label--string cell-label--false">
+                <a href="#">ID</a>
+            </th>
+            <th class="cell-label cell-label--string cell-label--false">
+                <a href="#">URL</a>
+            </th>
+            <th class="cell-label cell-label--string cell-label--false">
+                <a href="#">TITLE</a>
+            </th>
+            <th class="cell-label cell-label--text cell-label--false">
+                <a href="#">CONTENT</a>
+            </th>
+            <th colspan="2" scope="col">
 
+            </th>
         </table>
         <?php echo $this->template->yield_template(); ?>
     </div>
