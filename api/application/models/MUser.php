@@ -15,8 +15,8 @@ Class MUser extends CI_Model
     public function createUser($params){
         $params = $this->serializeMember($params);
         $params['password'] = md5($params['password']);
-        $this->db->set('token',password_hash(round(microtime(true) * 1000),PASSWORD_BCRYPT,array("cost"=>10)));
-        $this->db->insert('users', $params);
+        $this->db->set(TOKEN,password_hash(round(microtime(true) * 1000),PASSWORD_BCRYPT,array(COST=>10)));
+        $this->db->insert($this->_tbl_user, $params);
         $id = $this->db->insert_id();
         return $this->getTokenById($id);
     }
@@ -30,7 +30,7 @@ Class MUser extends CI_Model
             $query = $this->db
                 ->select('id,email,name,password,token')
                 ->or_where($params)
-                ->get('users');
+                ->get($this->_tbl_user);
             while($query->num_rows()>0){
                 return $query->row();
             }
@@ -40,10 +40,10 @@ Class MUser extends CI_Model
 
     public function updateToken($id)
     {
-        $token = password_hash(round(microtime(true)*1000),PASSWORD_BCRYPT,array("cost"=>10));
-        $this->db->set('token', $token);
+        $token = password_hash(round(microtime(true)*1000),PASSWORD_BCRYPT,array(COST=>10));
+        $this->db->set(TOKEN, $token);
         $this->db->where('id', $id);
-        $this->db->update('users');
+        $this->db->update($this->_tbl_user);
         return $token;
    }
 
@@ -53,8 +53,8 @@ Class MUser extends CI_Model
 
 
     public function getAuth($params){
-        $token = $params['token'];
-        $result =  $this->db->where(array("token"=>stripcslashes($token)))->get('users')->row();
+        $token = $params[TOKEN];
+        $result =  $this->db->where(array(TOKEN=>stripcslashes($token)))->get($this->_tbl_user)->row();
         return $result;
     }
 
@@ -79,7 +79,7 @@ Class MUser extends CI_Model
     private function serializeMember($params)
     {
         $result = array();
-        $field_data = $this->db->field_data('users');
+        $field_data = $this->db->field_data($this->_tbl_user);
         unset($field_data[0]);
         foreach ($field_data as $value) {
             if (isset($params[$value->name])) {
@@ -91,7 +91,7 @@ Class MUser extends CI_Model
     }
 
     private function getTokenById($id){
-       return $this->db->select('token,id')->where("id",$id)->get("users")->row();
+       return $this->db->select('token,id')->where(ID,$id)->get($this->_tbl_user)->row();
 
     }
 
@@ -103,9 +103,10 @@ Class MUser extends CI_Model
     //test
     public function update_location($params,$id){
 
-        $this->db->set('location',"geomfromtext('POINT($params[lat] $params[lng])')", FALSE);
-        $this->db->where('id',$id);
-        $this->db->update('users');
+        $this->db->set(LATITUDE,$params[LATITUDE]);
+        $this->db->set(LONGITUDE,$params[LONGITUDE]);
+        $this->db->where(ID,$id);
+        $this->db->update($this->_tbl_user);
         $id = $this->db->insert_id();
         //return $this->getTokenById($id);
         return $id;
@@ -114,7 +115,7 @@ Class MUser extends CI_Model
 
     public function getLocation(){
 
-        $test = $this->db->where("id",11)->get("users")->row();
+        $test = $this->db->where(ID,11)->get($this->_tbl_user)->row();
         return $test;
     }
 

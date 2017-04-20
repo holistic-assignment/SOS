@@ -6,10 +6,8 @@ class Messages extends MY_Controller
     public function __construct()
     {
         parent::__construct();
-        $this->load->helper(array('sendemail'));
-
-        $this->load->model(array('MUser','MDeviceInfo','MMessage'));
-        date_default_timezone_set('Asia/Tokyo');
+        $this->load->helper(array(SEND_EMAIL));
+        date_default_timezone_set(TIME_ZONE);
 
     }
 

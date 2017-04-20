@@ -17,3 +17,5 @@ $lang['E013_ERROR']= "Error occur during send mail";
 $lang['E014_ERROR']= "Empty message";
 $lang['E000_ERROR']=  "Un-Authenticate";
 $lang['E015_ERROR']= "Empty os";
+$lang['LIST_DANGER'] = "List dangers";
+$lang['LIST_NEW'] ="List new ";

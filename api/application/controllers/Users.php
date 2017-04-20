@@ -8,7 +8,6 @@ class Users extends MY_Controller
     public function __construct()
     {
         parent::__construct();
-        $this->load->model(array('MUser','MDeviceInfo'));
         $this->load->helper(array('email'));
     }
 
@@ -39,7 +38,7 @@ class Users extends MY_Controller
             if ($current_user->password == md5($password)) {
                 $token = $this->MUser->updateToken(intval($current_user->id));
                 $this->MDeviceInfo->updateDeviceInfo($params,intval($current_user->id));
-                $this->response_message("login successful", "200", 1, $token);
+                $this->response_message(LOGIN_SUCCESS, SUCCESS_CODE, 1, $token);
             } else {
                 $this->response_message($this->message('E003_ERROR'), 'E003');
             }
@@ -81,7 +80,7 @@ class Users extends MY_Controller
         }
         if ($result = $this->MUser->createUser($params)) {
 
-            $this->response_message("register successful", "200", 1, $result->token);
+            $this->response_message(REGISTER_SUCCESS, SUCCESS_CODE, 1, $result->token);
         } else {
             $this->response_message();
         }

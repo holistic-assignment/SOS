@@ -22,7 +22,7 @@ if(!function_exists('sendMail')){
         $ci->email->subject($title);
         $ci->email->message($message);
         if ( $result=$ci->email->send()) {
-            $ci-> response_message("send mail successful", "200", 1);
+            $ci-> response_message("send mail successful", SUCCESS_CODE, 1);
         } else {
             $ci->email->print_debugger();
             $ci-> response_message($ci->message('E013_ERROR'), 'E013');

@@ -1,6 +1,7 @@
 <?php
 Class MMessage extends CI_Model
 {
+    private $_tbl_message = "messages";
     public function __construct()
     {
         $this->load->database();
@@ -13,7 +14,7 @@ Class MMessage extends CI_Model
         $params = $this->serializeMember($params);
         $params['user_id'] = $id;
 
-        $this->db->insert("messages",$params);
+        $this->db->insert($this->_tbl_message,$params);
         if($this->db->affected_rows() ==1) {
             return $params['content'];
         }
@@ -37,7 +38,7 @@ Class MMessage extends CI_Model
     private function serializeMember($params)
     {
         $result = array();
-        $field_data = $this->db->field_data('messages');
+        $field_data = $this->db->field_data($this->_tbl_message);
         unset($field_data[0]);
         foreach ($field_data as $value) {
             if (isset($params[$value->name])) {

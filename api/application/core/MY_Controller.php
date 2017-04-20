@@ -6,7 +6,7 @@ class MY_Controller extends CI_Controller
     {
         parent::__construct();
         $this->lang->load('common_error', 'japanese');
-        $this->load->model(array('MUser'));
+        $this->load->model(array(USER,DEVICE,MESSAGE,DANGER,NEWS));
         $this->auth();
     }
     protected function is_post_method()
