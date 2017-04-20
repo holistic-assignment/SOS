@@ -1,27 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9bea798e-4b16-4ff8-b80e-3bcce86fc97c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/composer.phar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SOS.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/application/controllers/Dangers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/application/controllers/News.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/application/helpers/distance_helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/application/models/MDanger.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/application/models/MNew.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PHP.iml" afterPath="$PROJECT_DIR$/.idea/PHP.iml" />
+    <list default="true" id="9bea798e-4b16-4ff8-b80e-3bcce86fc97c" name="Default" comment="" />
+    <list id="8d8135b9-fe69-46fc-bf68-c67c5c11933a" name="New changelist" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/config/constants.php" afterPath="$PROJECT_DIR$/api/application/config/constants.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/controllers/Messages.php" afterPath="$PROJECT_DIR$/api/application/controllers/Messages.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/controllers/Users.php" afterPath="$PROJECT_DIR$/api/application/controllers/Users.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/controllers/WebView.php" afterPath="$PROJECT_DIR$/api/application/controllers/WebView.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/core/MY_Controller.php" afterPath="$PROJECT_DIR$/api/application/core/MY_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/helpers/sendemail_helper.php" afterPath="$PROJECT_DIR$/api/application/helpers/sendemail_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/language/japanese/common_error_lang.php" afterPath="$PROJECT_DIR$/api/application/language/japanese/common_error_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/models/MDeviceInfo.php" afterPath="$PROJECT_DIR$/api/application/models/MDeviceInfo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/models/MMessage.php" afterPath="$PROJECT_DIR$/api/application/models/MMessage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/models/MUser.php" afterPath="$PROJECT_DIR$/api/application/models/MUser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/composer.json" afterPath="$PROJECT_DIR$/api/composer.json" />
     </list>
     <ignored path="PHP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -438,6 +420,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9bea798e-4b16-4ff8-b80e-3bcce86fc97c" name="Default" comment="" />
+      <changelist id="8d8135b9-fe69-46fc-bf68-c67c5c11933a" name="New changelist" comment="" />
       <created>1492156046120</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -448,12 +431,20 @@
       <workItem from="1492533372596" duration="5325000" />
       <workItem from="1492563823444" duration="27291000" />
       <workItem from="1492649751795" duration="26588000" />
-      <workItem from="1492715039201" duration="76000" />
+      <workItem from="1492715039201" duration="166000" />
     </task>
+    <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/test_geometry' into test_geometry&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;">
+      <created>1492715147432</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1492715147432</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127797000" />
+    <option name="totallyTimeSpent" value="127887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="23" width="1855" height="1005" extended-state="0" />
@@ -488,6 +479,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge remote-tracking branch 'origin/test_geometry' into test_geometry&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/test_geometry' into test_geometry&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;" />
+    <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -581,6 +577,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="1306" column="9" selection-start-line="1306" selection-start-column="9" selection-end-line="1306" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -661,6 +658,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -676,6 +674,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -702,6 +701,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
