@@ -1,6 +1,7 @@
 <?php
 class MDeviceInfo extends CI_Model
 {
+    private $_tbl_user = "users";
     public function __construct()
     {
 
@@ -12,7 +13,7 @@ class MDeviceInfo extends CI_Model
         $this->db->set('device_token', $params["device_token"]);
         $this->db->set('device_id', $params["device_id"]);
         $this->db->where('id', $id);
-        $this->db->update('users');
+        $this->db->update($this->_tbl_user);
     }
 
    private function paramsDevice($params){

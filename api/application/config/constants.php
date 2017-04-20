@@ -87,4 +87,19 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 
 define('LATITUDE','lat');
 define('LONGITUDE', 'lng');
+define('USER','MUser');
+define('DEVICE','MDeviceInfo');
+define('MESSAGE','MMessage');
+define('DANGER','MDanger');
+define('NEWS','MNew');
+define('RADIUS','radius');
 
+define('COST',10);
+define('TOKEN','token');
+define('ID','id');
+define('LIMIT',50);
+const SUCCESS_CODE = 200;
+const TIME_ZONE ='Asia/Tokyo';
+const SEND_EMAIL = "sendemail";
+const REGISTER_SUCCESS = "register successful";
+const LOGIN_SUCCESS = "login successful";
