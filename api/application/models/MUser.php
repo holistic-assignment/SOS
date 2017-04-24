@@ -1,13 +1,13 @@
 <?php
 
-Class MUser extends CI_Model
+Class MUser extends MY_Model
 {
     private $_tbl_user = "users";
 
     public function __construct()
     {
 
-        $this->load->database();
+        parent::__construct();
 
     }
 
@@ -16,6 +16,7 @@ Class MUser extends CI_Model
         $params = $this->serializeMember($params);
         $params['password'] = md5($params['password']);
         $this->db->set(TOKEN,password_hash(round(microtime(true) * 1000),PASSWORD_BCRYPT,array(COST=>10)));
+        $this->insert_datetime();
         $this->db->insert($this->_tbl_user, $params);
         $id = $this->db->insert_id();
         return $this->getTokenById($id);
@@ -43,6 +44,7 @@ Class MUser extends CI_Model
         $token = password_hash(round(microtime(true)*1000),PASSWORD_BCRYPT,array(COST=>10));
         $this->db->set(TOKEN, $token);
         $this->db->where('id', $id);
+        $this->update_datetime();
         $this->db->update($this->_tbl_user);
         return $token;
    }
@@ -95,21 +97,37 @@ Class MUser extends CI_Model
 
     }
 
-    private function updateLocation(){
-
-    }
-
-
     //test
-    public function update_location($params,$id){
-
+    public function update_location($params){
+        $id = $this->getId($params);
+        $this->db->trans_start();
         $this->db->set(LATITUDE,$params[LATITUDE]);
         $this->db->set(LONGITUDE,$params[LONGITUDE]);
         $this->db->where(ID,$id);
+        $this->update_datetime();
         $this->db->update($this->_tbl_user);
-        $id = $this->db->insert_id();
-        //return $this->getTokenById($id);
+        $this->db->trans_complete();
+        if ($this->db->trans_status() === FALSE)
+        {
+            return FALSE;
+        }
         return $id;
+    }
+
+    public function update_baterystatus($params){
+        $id = $this->getId($params);
+        $this->db->trans_start();
+        $this->db->set(BATTERY,$params[BATTERY]);
+        $this->db->where(ID,$id);
+        $this->update_datetime();
+        $this->db->update($this->_tbl_user);
+        $this->db->trans_complete();
+        if ($this->db->trans_status() === FALSE)
+        {
+            return FALSE;
+        }
+        return $id;
+
     }
 
 

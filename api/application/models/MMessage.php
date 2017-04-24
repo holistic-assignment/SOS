@@ -1,19 +1,19 @@
 <?php
-Class MMessage extends CI_Model
+Class MMessage extends MY_Model
 {
     private $_tbl_message = "messages";
     public function __construct()
     {
-        $this->load->database();
+        parent::__construct();
     }
 
     public function createMessage($params){
         $id = $this->MUser->getId($params);
-        $this->MUser->update_location($params,$id);
+        $this->MUser->update_location($params);
         $params = array_merge($params ,$this->content($params,$id));
         $params = $this->serializeMember($params);
         $params['user_id'] = $id;
-
+        $this->insert_datetime();
         $this->db->insert($this->_tbl_message,$params);
         if($this->db->affected_rows() ==1) {
             return $params['content'];

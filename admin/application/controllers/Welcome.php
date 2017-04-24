@@ -14,6 +14,9 @@ class Welcome extends CI_Controller {
 
     function index()
     {
+        $this->template->set_block('header', 'layouts/_header.php');
+        $this->template->set_block('leftpanel', 'layouts/_leftpanel.php');
+
         $this->template->render();
     }
 }

@@ -13,9 +13,9 @@ class Dangers extends MY_Controller
     }
 
     public function listDangers(){
-        $offset = is_numeric($this->input->post('offset')) ? intval($this->input->get('offset')) : 0;
-        if($result = $this->MDanger->getlistDangers($offset)){
-           $this->response_message($this->message('LIST_DANGER'), SUCCESS_CODE,1,"",$result);
+        $last_id = is_numeric($this->input->post('id')) ? intval($this->input->post('id')) : "";
+        if($result = $this->MDanger->getlistDangers($last_id)){
+           $this->response_message(EMPTY_MESSAGE, SUCCESS_CODE,1,"",$result);
 
         };
         $this->response_message();
@@ -41,6 +41,8 @@ class Dangers extends MY_Controller
             $result[$key]['userdistance'] = distanceLocation(
                 doubleval($value[LATITUDE]), doubleval($value[LONGITUDE]),
                 doubleval($params[LATITUDE]),doubleval( $params[LONGITUDE]));
+            echo $result[$key]['userdistance'];
+            echo doubleval($value['radius']);
             $result[$key]['userdistance']> doubleval($value['radius']) ?  $result[$key]['danger'] = 0 :  $result[$key]['danger'] = 1;
 
         }
@@ -49,7 +51,8 @@ class Dangers extends MY_Controller
     }
 
 
-    public function UpdateUserStatus(){
+
+    public function ConfirmSafety (){
         if ($this->is_post_method()) {
             $this->response_message($this->message('E001_ERROR'), 'E001');
         }

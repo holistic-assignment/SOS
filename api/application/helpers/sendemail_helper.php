@@ -18,7 +18,7 @@ if(!function_exists('sendMail')){
         $config['wordwrap'] = FALSE;
         $ci->email->initialize($config);
         $ci->email->from('nguyen', 'Nguyen Tran');
-        $ci->email->to('baby.voi1995@gmail.com');
+        $ci->email->to('hamxn@vccvn.com');
         $ci->email->subject($title);
         $ci->email->message($message);
         if ( $result=$ci->email->send()) {

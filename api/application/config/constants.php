@@ -103,3 +103,15 @@ const TIME_ZONE ='Asia/Tokyo';
 const SEND_EMAIL = "sendemail";
 const REGISTER_SUCCESS = "register successful";
 const LOGIN_SUCCESS = "login successful";
+const BATTERY  = "battery";
+const UPDATE_45_MIN_SUCCESS ="Update successful";
+const EMPTY_MESSAGE ="";
+const PUSH_ENVIRONMENT = 'ALL';
+
+$root_path = dirname(BASEPATH);
+define('PUSH_CRONTAB', $root_path."/push.php");
+define('COMMON_PATH', $root_path . "/common/");
+define('DIS_PEM_FILE', COMMON_PATH ."pemfile/pushcert.pem");
+define('DEV_PEM_FILE', COMMON_PATH ."pemfile/pushcert.pem");
+define('STAGGING_DANGER','http://sosstag.wecsy.ex-cloud.biz/');
+define('API_CHECK_DANGER',STAGGING_DANGER.'api/index.php/users/checkDanger');

@@ -7,8 +7,6 @@ class Messages extends MY_Controller
     {
         parent::__construct();
         $this->load->helper(array(SEND_EMAIL));
-        date_default_timezone_set(TIME_ZONE);
-
     }
 
     public function sendCallmail(){

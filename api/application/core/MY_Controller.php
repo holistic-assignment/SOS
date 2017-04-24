@@ -5,6 +5,7 @@ class MY_Controller extends CI_Controller
     public function __construct()
     {
         parent::__construct();
+        date_default_timezone_set(TIME_ZONE);
         $this->lang->load('common_error', 'japanese');
         $this->load->model(array(USER,DEVICE,MESSAGE,DANGER,NEWS));
         $this->auth();
