@@ -9,7 +9,7 @@ class MY_Controller extends CI_Controller
     {
         parent::__construct();
         date_default_timezone_set(TIME_ZONE);
-        $this->load->helper('inflector');
+        $this->load->helper(array('inflector','view'));
         $this->load->library('template');
         $this->class = ucwords($this->router->fetch_class());
         $method = strtolower($this->router->fetch_method());

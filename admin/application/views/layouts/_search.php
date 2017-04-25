@@ -12,8 +12,7 @@
                                style="padding-top: 4px; margin-top: 10px"><?php echo $key ?></label>
                     </div>
                     <div class="col-sm-10">
-                        <input type="text" name="<?php echo $key?>"
-                               style="width:164px;height:30px;padding: 4px 6px;margin-top: 10px">
+                        <?php select_tag() ?>
                     </div>
 
                 </div>
