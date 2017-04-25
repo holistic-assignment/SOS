@@ -19,11 +19,11 @@
             </li>
             <li class="lineMn"></li>
             <li class="subMn <?php if ($controller == 'topic') echo 'active' ?>"><a
-                    href="<?php echo site_url('topic/index'); ?>">Message Management</a>
+                    href="<?php echo site_url('messages/index'); ?>">Message Management</a>
             </li>
             <li class="lineMn"></li>
             <li class="subMn <?php if ($controller == 'project') echo 'active' ?>"><a
-                    href="<?php echo site_url('project/index'); ?>">News Management</a>
+                    href="<?php echo site_url('news/index'); ?>">News Management</a>
             </li>
             <li class="lineMn"></li>
             <li class="subMn <?php if ($controller == 'calendar') echo 'active' ?>"><a

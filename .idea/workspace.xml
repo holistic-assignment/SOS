@@ -1,199 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/admin/application/views/layouts/_search.php" line="24" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9bea798e-4b16-4ff8-b80e-3bcce86fc97c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/bootstrap/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/bootstrap/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/FontAwesome-Vectors.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/FontAwesome.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/font/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/font/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/font/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/font/museo_slab_300-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/font/museo_slab_300-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/font/museo_slab_500-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/font/museo_slab_500-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/font/proximanova-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/font/proximanova-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/ico/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/font/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/font/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/font/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_glass_50_3baae3_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-icons_2694e8_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-icons_3d80b3_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-icons_72a7cf_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/application/core/MY_Model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/js/bootstrap/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/js/calendar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/js/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/js/datepicker/bootstrap-datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/js/datetimepicker/jquery.datetimepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/js/edit_images.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/js/jquery-1.10.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/js/jquery-1.8.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/js/jquery.colorbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/js/jquery.number.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/js/jquery.scrollTo-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/js/jsbussiness/js_character.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/js/memo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/js/project_images.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/js/timepicker/bootstrap-timepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/js/timepicker/bootstrap-timepicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/datepicker/css/datepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/datepicker/js/bootstrap-datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/datepicker/less/datepicker.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/css/font-awesome-ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/css/font-awesome-ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/css/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/css/site.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/font/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/js/backbone.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/js/index/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/js/jquery-1.7.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/js/prettify.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-alert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-popover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-scrollspy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-typeahead.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/js/underscore.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/font-awesome-ie7.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/font-site.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/site.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/accordion.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/breadcrumbs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/button-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/carousel.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/close.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/code.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/component-animations.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/dropdowns.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/hero-unit.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/labels-badges.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/layouts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/modals.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/navs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/pager.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/popovers.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/progress-bars.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/reset.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/responsive-1200px-min.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/responsive-767px-max.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/responsive-768px-979px.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/responsive-navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/responsive-utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/responsive.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/scaffolding.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/sprites.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/tables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/thumbnails.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/tooltip.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/type.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/twbs-203/wells.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/assets/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/docs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/font/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/less/font-awesome-ie7.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/sass/font-awesome.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/font-awesome/sass/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/GPL-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/MIT-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/changelog.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/demos/agenda-views.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/demos/basic-views.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/demos/cupertino/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/demos/default.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/demos/external-dragging.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/demos/gcal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/demos/json-events.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/demos/json.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/demos/selectable.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/demos/theme.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/fullcalendar/fullcalendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/fullcalendar/fullcalendar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/fullcalendar/fullcalendar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/fullcalendar/fullcalendar.print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/fullcalendar/gcal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/jquery/jquery-1.7.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/fullcalendar-1.5.3/jquery/jquery-ui-1.8.17.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/jquery-1.7.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/jquery-1.8.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/common/lib/jquery1.9.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/application/libraries/ApnsPHP/Abstract.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/application/libraries/ApnsPHP/Autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/application/libraries/ApnsPHP/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/application/libraries/ApnsPHP/Feedback.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/application/libraries/ApnsPHP/Log/Embedded.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/application/libraries/ApnsPHP/Log/Interface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/application/libraries/ApnsPHP/Message.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/application/libraries/ApnsPHP/Message/Custom.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/application/libraries/ApnsPHP/Message/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/application/libraries/ApnsPHP/Push.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/application/libraries/ApnsPHP/Push/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/application/libraries/ApnsPHP/Push/Server.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/application/libraries/ApnsPHP/Push/Server/Exception.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PHP.iml" afterPath="$PROJECT_DIR$/.idea/PHP.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/application/config/autoload.php" afterPath="$PROJECT_DIR$/admin/application/config/autoload.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/application/config/constants.php" afterPath="$PROJECT_DIR$/admin/application/config/constants.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/application/config/database.php" afterPath="$PROJECT_DIR$/admin/application/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/application/controllers/Welcome.php" afterPath="$PROJECT_DIR$/admin/application/controllers/Welcome.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/application/config/routes.php" afterPath="$PROJECT_DIR$/admin/application/config/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/application/controllers/Users.php" afterPath="$PROJECT_DIR$/admin/application/controllers/Users.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/application/core/MY_Model.php" afterPath="$PROJECT_DIR$/admin/application/core/MY_Model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/application/models/MUser.php" afterPath="$PROJECT_DIR$/admin/application/models/MUser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/application/views/layouts/_leftpanel.php" afterPath="$PROJECT_DIR$/admin/application/views/layouts/_leftpanel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/application/views/layouts/application.php" afterPath="$PROJECT_DIR$/admin/application/views/layouts/application.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/application/views/welcome/index.php" afterPath="$PROJECT_DIR$/admin/application/views/welcome/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/config/autoload.php" afterPath="$PROJECT_DIR$/api/application/config/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/config/constants.php" afterPath="$PROJECT_DIR$/api/application/config/constants.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/controllers/Dangers.php" afterPath="$PROJECT_DIR$/api/application/controllers/Dangers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/controllers/Messages.php" afterPath="$PROJECT_DIR$/api/application/controllers/Messages.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/controllers/News.php" afterPath="$PROJECT_DIR$/api/application/controllers/News.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/application/views/users/index.php" afterPath="$PROJECT_DIR$/admin/application/views/users/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/common/css/style.css" afterPath="$PROJECT_DIR$/admin/common/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/common/lib/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/admin/common/lib/bootstrap/css/bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/controllers/Users.php" afterPath="$PROJECT_DIR$/api/application/controllers/Users.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/core/MY_Controller.php" afterPath="$PROJECT_DIR$/api/application/core/MY_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/helpers/sendemail_helper.php" afterPath="$PROJECT_DIR$/api/application/helpers/sendemail_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/language/japanese/common_error_lang.php" afterPath="$PROJECT_DIR$/api/application/language/japanese/common_error_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/models/MDanger.php" afterPath="$PROJECT_DIR$/api/application/models/MDanger.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/models/MDeviceInfo.php" afterPath="$PROJECT_DIR$/api/application/models/MDeviceInfo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/models/MMessage.php" afterPath="$PROJECT_DIR$/api/application/models/MMessage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/models/MNew.php" afterPath="$PROJECT_DIR$/api/application/models/MNew.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/models/MUser.php" afterPath="$PROJECT_DIR$/api/application/models/MUser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/views/webview/appInfo.php" afterPath="$PROJECT_DIR$/api/application/views/webview/appInfo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/views/webview/supportCenter.php" afterPath="$PROJECT_DIR$/api/application/views/webview/supportCenter.php" />
     </list>
     <list id="8d8135b9-fe69-46fc-bf68-c67c5c11933a" name="New changelist" comment="" />
     <ignored path="PHP.iws" />
@@ -215,105 +40,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Welcome.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/application/controllers/Welcome.php">
+      <file leaf-file-name="MY_Controller.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/application/core/MY_Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="74" selection-start-line="15" selection-start-column="5" selection-end-line="17" selection-end-column="74" />
+            <state relative-caret-position="146">
+              <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/application/views/welcome/index.php">
+      <file leaf-file-name="constants.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/application/config/constants.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="291">
+              <caret line="91" column="106" selection-start-line="91" selection-start-column="106" selection-end-line="91" selection-end-column="106" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/application/views/layouts/application.php">
+      <file leaf-file-name="MUser.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/application/models/MUser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="56" column="54" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
-              <folding>
-                <marker date="1493028018567" expanded="true" signature="1790:1825" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Users.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/application/controllers/Users.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/application/config/template.php">
+      <file leaf-file-name="MY_Model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/application/core/MY_Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="183" column="65" selection-start-line="183" selection-start-column="59" selection-end-line="183" selection-end-column="65" />
+            <state relative-caret-position="200">
+              <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/application/views/users/index.php">
+      <file leaf-file-name="MNew.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/application/models/MNew.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-              <folding>
-                <element signature="n#style#0;n#input#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_leftpanel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/application/views/layouts/_leftpanel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+            <state relative-caret-position="30">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/application/views/layouts/_header.php">
+      <file leaf-file-name="Users.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/application/controllers/Users.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="82" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
+            <state relative-caret-position="184">
+              <caret line="69" column="43" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/application/views/layouts/ajax.php">
+      <file leaf-file-name="MUser.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/application/models/MUser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="275">
+              <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/application/libraries/Template.php">
+      <file leaf-file-name="MY_Model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/application/core/MY_Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-269">
-              <caret line="206" column="26" selection-start-line="206" selection-start-column="11" selection-end-line="206" selection-end-column="26" />
+            <state relative-caret-position="15">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MMessage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/application/models/MMessage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/application/views/layouts/_index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -333,20 +154,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/api/application/core/MyController.php" />
-        <option value="$PROJECT_DIR$/api/application/views/layouts/Users/index.php" />
-        <option value="$PROJECT_DIR$/api/application/views/layouts/application.php" />
-        <option value="$PROJECT_DIR$/api/application/models/user.php" />
-        <option value="$PROJECT_DIR$/api/application/models/User_model.php" />
-        <option value="$PROJECT_DIR$/api/application/views/users/index.php" />
-        <option value="$PROJECT_DIR$/api/application/config/config.php" />
-        <option value="$PROJECT_DIR$/api/application/helpers/email_helper.php" />
-        <option value="$PROJECT_DIR$/api/application/config/database.php" />
         <option value="$PROJECT_DIR$/api/application/models/MMesaage.php" />
         <option value="$PROJECT_DIR$/api/phpinfo.php" />
         <option value="$PROJECT_DIR$/api/index.php" />
-        <option value="$PROJECT_DIR$/api/application/views/webview/supportCenter.php" />
-        <option value="$PROJECT_DIR$/api/application/views/webview/appInfo.php" />
         <option value="$PROJECT_DIR$/api/composer.json" />
         <option value="$PROJECT_DIR$/api/application/helpers/test.php" />
         <option value="$PROJECT_DIR$/api/application/controllers/WebView.php" />
@@ -368,20 +178,33 @@
         <option value="$PROJECT_DIR$/api/application/helpers/sendemail_helper.php" />
         <option value="$PROJECT_DIR$/api/application/config/constants.php" />
         <option value="$PROJECT_DIR$/api/application/core/MY_Controller.php" />
-        <option value="$PROJECT_DIR$/api/application/controllers/Users.php" />
         <option value="$PROJECT_DIR$/api/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/admin/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/admin/application/controllers/Welcome.php" />
         <option value="$PROJECT_DIR$/admin/application/views/layouts/_header.php" />
-        <option value="$PROJECT_DIR$/admin/application/views/layouts/_leftpanel.php" />
         <option value="$PROJECT_DIR$/admin/application/controllers/users.php" />
-        <option value="$PROJECT_DIR$/admin/application/config/constants.php" />
         <option value="$PROJECT_DIR$/admin/application/config/database.php" />
-        <option value="$PROJECT_DIR$/admin/application/models/MUser.php" />
-        <option value="$PROJECT_DIR$/admin/application/views/layouts/application.php" />
         <option value="$PROJECT_DIR$/admin/application/views/welcome/index.php" />
-        <option value="$PROJECT_DIR$/admin/application/controllers/Users.php" />
+        <option value="$PROJECT_DIR$/admin/common/css/style.css" />
+        <option value="$PROJECT_DIR$/admin/application/config/routes.php" />
         <option value="$PROJECT_DIR$/admin/application/views/users/index.php" />
+        <option value="$PROJECT_DIR$/admin/application/models/MMessage.php" />
+        <option value="$PROJECT_DIR$/admin/application/models/MUser.php" />
+        <option value="$PROJECT_DIR$/admin/common/lib/bootstrap/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/admin/application/views/layouts/_leftpanel.php" />
+        <option value="$PROJECT_DIR$/admin/application/models/MNew.php" />
+        <option value="$PROJECT_DIR$/api/application/views/webview/appInfo.php" />
+        <option value="$PROJECT_DIR$/api/application/views/webview/supportCenter.php" />
+        <option value="$PROJECT_DIR$/admin/application/views/layouts/application.php" />
+        <option value="$PROJECT_DIR$/admin/application/config/constants.php" />
+        <option value="$PROJECT_DIR$/admin/application/controllers/Users.php" />
+        <option value="$PROJECT_DIR$/admin/application/controllers/News.php" />
+        <option value="$PROJECT_DIR$/admin/application/controllers/Messages.php" />
+        <option value="$PROJECT_DIR$/admin/application/views/layouts/_search.php" />
+        <option value="$PROJECT_DIR$/admin/application/core/MY_Model.php" />
+        <option value="$PROJECT_DIR$/admin/application/core/MY_Controller.php" />
+        <option value="$PROJECT_DIR$/admin/application/views/layouts/_index.php" />
+        <option value="$PROJECT_DIR$/api/application/controllers/Users.php" />
       </list>
     </option>
   </component>
@@ -403,10 +226,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="74" />
-    <option name="width" value="1845" />
-    <option name="height" value="998" />
+    <option name="x" value="39" />
+    <option name="y" value="52" />
+    <option name="width" value="1835" />
+    <option name="height" value="940" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -433,7 +256,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -462,7 +284,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -476,7 +298,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -494,55 +316,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -557,24 +331,25 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v6.9.2/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="database&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/admin/application/config/database.php&#10;constant&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/api/application/config/constants.php&#10;autol&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/api/application/config/autoload.php&#10;confi&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/api/application/config/config.php&#10;const&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/api/application/config/constants.php&#10;consta&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/api/application/config/constants.php&#10;com&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/api/application/language/japanese/common_error_lang.php&#10;c&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/api/application/config/constants.php&#10;commo&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/api/application/language/japanese/common_error_lang.php&#10;MUSer&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/api/application/models/MUser.php&#10;Cons&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/api/application/config/constants.php" />
+    <property name="SearchEverywhereHistoryKey" value="CONSTA&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/admin/application/config/constants.php&#10;const&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/admin/application/config/constants.php&#10;constan&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/admin/application/config/constants.php&#10;route&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/admin/application/config/routes.php&#10;style.&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/admin/common/css/style.css&#10;database&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/admin/application/config/database.php&#10;constant&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/api/application/config/constants.php&#10;autol&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/api/application/config/autoload.php&#10;confi&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/api/application/config/config.php&#10;consta&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/api/application/config/constants.php&#10;com&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/api/application/language/japanese/common_error_lang.php&#10;c&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/api/application/config/constants.php&#10;commo&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/api/application/language/japanese/common_error_lang.php&#10;MUSer&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/api/application/models/MUser.php&#10;Cons&#9;FILE&#9;file:///home/nguyenta/project/SOS/08_Sourcecode/PHP/api/application/config/constants.php" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/application/views" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/admin/application/controllers" />
+      <recent name="$PROJECT_DIR$/admin/application/models" />
       <recent name="$PROJECT_DIR$/admin/application/core" />
       <recent name="$PROJECT_DIR$/admin/common" />
       <recent name="$PROJECT_DIR$/admin/public/image" />
-      <recent name="$PROJECT_DIR$/admin/common/css" />
-      <recent name="$PROJECT_DIR$/api/application/libraries" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/api/application/views" />
     </key>
   </component>
   <component name="RunManager">
@@ -649,7 +424,8 @@
       <workItem from="1492737170556" duration="12526000" />
       <workItem from="1492756222806" duration="14246000" />
       <workItem from="1492996346675" duration="3960000" />
-      <workItem from="1493000845118" duration="26714000" />
+      <workItem from="1493000845118" duration="28585000" />
+      <workItem from="1493082178824" duration="30995000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/test_geometry' into test_geometry&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;">
       <created>1492715147432</created>
@@ -662,23 +438,23 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185333000" />
+    <option name="totallyTimeSpent" value="218199000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="74" width="1845" height="998" extended-state="0" />
+    <frame x="39" y="52" width="1835" height="940" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24227643" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24468665" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3943662" sideWeight="0.34634146" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44624278" sideWeight="0.3520436" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282365" sideWeight="0.48733154" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925585" sideWeight="0.49811321" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31960997" sideWeight="0.46612465" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31906217" sideWeight="0.45983827" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3943662" sideWeight="0.6536585" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44624278" sideWeight="0.64795643" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -716,202 +492,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/api/application/controllers/Users.php</url>
-          <line>135</line>
+          <line>127</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/api/application/controllers/Users.php</url>
-          <line>119</line>
+          <line>111</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/admin/application/views/users/index.php</url>
-          <line>2</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="30" />
+      <option name="time" value="34" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/application/libraries/ApnsPHP/Log/Embedded.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/application/libraries/ApnsPHP/Abstract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2745">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/application/libraries/ApnsPHP/Autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/system/core/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/share/phpmyadmin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-465">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/application/models/MDeviceInfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/application/models/MMessage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/application/models/MNew.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/application/helpers/distance_helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="597" column="9" selection-start-line="597" selection-start-column="9" selection-end-line="597" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/curl_d.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/application/controllers/News.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/application/controllers/WebView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/push.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/application/helpers/request_helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/application/core/MY_Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/application/controllers/Messages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/application/core/MY_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/application/helpers/sendemail_helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/application/controllers/Users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="112" column="41" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/application/controllers/Dangers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-22">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/application/models/MDanger.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="55" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -928,7 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -968,7 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -976,7 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -988,30 +587,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/application/core/MY_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/application/core/MY_Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/application/controllers/users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/controllers/users.php" />
     <entry file="file://$PROJECT_DIR$/api/application/config/constants.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1028,26 +604,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/application/config/constants.php">
+    <entry file="file://$PROJECT_DIR$/admin/application/views/layouts/_header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+        <state relative-caret-position="180">
+          <caret line="12" column="82" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/application/models/MUser.php">
+    <entry file="file://$PROJECT_DIR$/admin/application/views/welcome/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/application/models/MUser.php">
+    <entry file="file://$PROJECT_DIR$/admin/application/config/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="85" column="34" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
+        <state relative-caret-position="2745">
+          <caret line="183" column="65" selection-start-line="183" selection-start-column="59" selection-end-line="183" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/libraries/Template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3090">
+          <caret line="206" column="26" selection-start-line="206" selection-start-column="11" selection-end-line="206" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/user_guide/general/styleguide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="769" column="62" selection-start-line="769" selection-start-column="62" selection-end-line="769" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/common/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/application/core/MY_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="35" column="60" selection-start-line="34" selection-start-column="6" selection-end-line="35" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/core/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/application/models/MDanger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="55" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/controllers/Welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -1060,18 +692,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/application/views/layouts/_leftpanel.php">
+    <entry file="file://$PROJECT_DIR$/admin/common/lib/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        <state relative-caret-position="230">
+          <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/application/views/layouts/_header.php">
+    <entry file="file://$PROJECT_DIR$/admin/application/views/layouts/_leftpanel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="82" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
+        <state relative-caret-position="375">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/system/core/Loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="353" column="0" selection-start-line="353" selection-start-column="0" selection-end-line="353" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/application/views/webview/appInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/application/views/webview/supportCenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/application/views/users/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1086,15 +762,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/application/views/layouts/application.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="56" column="54" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
+        <state relative-caret-position="425">
+          <caret line="61" column="97" selection-start-line="61" selection-start-column="85" selection-end-line="61" selection-end-column="97" />
           <folding>
-            <marker date="1493028018567" expanded="true" signature="1790:1825" ph="..." />
+            <marker date="1493104177846" expanded="true" signature="1790:1825" ph="..." />
+            <marker date="1493104177846" expanded="true" signature="2813:2910" ph="..." />
+            <marker date="1493104177846" expanded="true" signature="2855:2910" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/application/views/welcome/index.php">
+    <entry file="file://$PROJECT_DIR$/admin/application/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/controllers/Users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/controllers/News.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/controllers/Messages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/views/users/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1102,45 +812,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/application/controllers/Welcome.php">
+    <entry file="file://$PROJECT_DIR$/admin/application/views/layouts/_search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="74" selection-start-line="15" selection-start-column="5" selection-end-line="17" selection-end-column="74" />
+        <state relative-caret-position="240">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/application/config/template.php">
+    <entry file="file://$PROJECT_DIR$/api/application/controllers/Welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="183" column="65" selection-start-line="183" selection-start-column="59" selection-end-line="183" selection-end-column="65" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/application/libraries/Template.php">
+    <entry file="file://$PROJECT_DIR$/api/application/controllers/WebView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-269">
-          <caret line="206" column="26" selection-start-line="206" selection-start-column="11" selection-end-line="206" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/application/controllers/Users.php">
+    <entry file="file://$PROJECT_DIR$/api/application/models/MUser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="275">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/application/views/users/index.php">
+    <entry file="file://$PROJECT_DIR$/api/application/core/MY_Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/core/MY_Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/models/MUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/models/MNew.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/models/MMessage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/views/layouts/_index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/core/MY_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/config/constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="91" column="106" selection-start-line="91" selection-start-column="106" selection-end-line="91" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/application/controllers/Users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="69" column="43" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>

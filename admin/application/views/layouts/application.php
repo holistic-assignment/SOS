@@ -37,33 +37,34 @@ $segment = $this->uri->segment(3) ? $this->uri->segment(3) : '';
 <?php echo $this->template->block('leftpanel', 'default/view', array('controller' => $controller, 'action' => $action)); ?>
 <div class="content">
 
-<div class="row" style="margin-left: 0px">
-    <div class="header">
-        <h1 class="page-title">title</h1>
-    </div>
-    <ul class="breadcrumb">
-        <li>
-        <a href="<?php base_url('admin')?>">Home</a>
-        <span class="divider">> </span>
-        </li>
-        <li class="active">管理カレンダー		</li>
-    </ul>
-    <div class="col-sm-12">
-        <div class="row" style="">
+    <div class="row" style="margin-left: 0px">
+        <div class="header">
+            <h1 class="page-title">title</h1>
+        </div>
+        <ul class="breadcrumb">
+            <li>
+                <a href="<?php base_url('admin') ?>">Home</a>
+                <span class="divider">> </span>
+            </li>
+            <li class="active">管理カレンダー</li>
+        </ul>
+        <div class="col-sm-12">
+            <div class="row" style="">
 
+            </div>
+            <div class="row" style="width: 100%">
+                <div class="search-box">
+                    <?php echo $this->template->block('search','default/view', array('search'=>$search)) ?>
+                </div>
+            </div>
+            <div class="row" style="width: 100%">
+                <div class="content-box">
+                    <?php echo $this->template->block('index','default/view', array('select_field'=>$select_field )) ?>
+                </div>
+            </div>
         </div>
-        <div class="row" style="width: 100%">
-        <div class="search-box">
-            <?php echo $this->template->yield_template() ?>
-        </div>
-        </div>
-        <div class="row" style="width: 100%">
-        <div class="content-box">
-
-        </div>
-    </div>
     </div>
 </div>
-    </div>
+
 </body>
 </html>

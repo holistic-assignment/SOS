@@ -54,28 +54,20 @@ class Users extends MY_Controller
             $this->response_message($this->message('E001_ERROR'), 'E001');
         }
         $params = $this->input->post();
-
-        if(empty($params['device_id'])){
-            $this->response_message($this->message('E009_ERROR'), 'E009');
-        }
-
-        if(empty($params['device_token'])){
-            $this->response_message($this->message('E010_ERROR'), 'E010');
-        }
-        if(!is_numeric($params['os'])){
-            $this->response_message($this->message('E015_ERROR'), 'E015');
+        if (empty($params["name"])) {
+            $this->response_message($this->message('E006_ERROR'), 'E006');
         }
         if (!valid_email($params['email'])) {
             $this->response_message($this->message('E005_ERROR'), 'E005');
         }
+        if ($this->MUser->checkUserExist('email', $params)) {
+            $this->response_message($this->message('E008_ERROR'), 'E008');
+        }
         if (empty($params["password"])) {
             $this->response_message($this->message('E002_ERROR'), 'E002');
         }
-        if (empty($params["name"])) {
-            $this->response_message($this->message('E006_ERROR'), 'E006');
-        }
-        if ($this->MUser->checkUserExist('email', $params)) {
-            $this->response_message($this->message('E008_ERROR'), 'E008');
+        if(!is_numeric($params['os'])){
+            $this->response_message($this->message('E015_ERROR'), 'E015');
         }
         if ($result = $this->MUser->createUser($params)) {
 

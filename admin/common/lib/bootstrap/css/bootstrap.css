@@ -180,15 +180,7 @@ a:hover {
     margin-left: -20px;
     *zoom: 1;
 }
-.row:before,
-.row:after {
-    display: table;
-    content: "";
-    line-height: 0;
-}
-.row:after {
-    clear: both;
-}
+
 [class*="span"] {
     float: left;
     min-height: 1px;
