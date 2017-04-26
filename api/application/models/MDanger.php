@@ -2,7 +2,7 @@
 
 Class MDanger extends MY_Model
 {
-    private $_tbl_danger = "dangers";
+    private $_tbl_danger = "dangerous";
 
     public function __construct()
     {

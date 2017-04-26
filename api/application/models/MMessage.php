@@ -8,10 +8,12 @@ Class MMessage extends MY_Model
     }
 
     public function createMessage($params){
+
         $id = $this->MUser->getId($params);
         $this->MUser->update_location($params);
         $params = array_merge($params ,$this->content($params,$id));
         $params = $this->serializeMember($params);
+
         $params['user_id'] = $id;
         $this->insert_datetime();
         $this->db->insert($this->_tbl_message,$params);
@@ -23,14 +25,15 @@ Class MMessage extends MY_Model
 
     private function content($params,$id)
     {
+
         $type =1; //call message
         $content = "GSMAT : $id \n"
                   ."Message : your user at longitude: $params[lat] and lattitude: $params[lng] \n";
         if(!empty($params['message'])){
-            $type = 2;
+            $type = 0;
             $content .="User message: $params[message]";
         }
-        return array("type"=> $type,
+        return array("message_type"=> $type,
                         "content"=>$content);
 
     }

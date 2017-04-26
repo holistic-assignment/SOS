@@ -26,6 +26,34 @@ class MY_Controller extends CI_Controller
         $this->template->render();
     }
 
+    public function show()
+    {
+        $id = $this->input->get('id');
+
+        if (!empty($id)) {
+            $modelname = singular("M" . $this->class);
+            $this->template->set('obj', $this->{"$modelname"}->get($id));
+            $this->template->set('id', $id);
+            $this->template->set_block('show', 'layouts/_show.php');
+            $this->template->render();
+        }
+
+    }
+
+    public function edit(){
+        $id = $this->input->get('id');
+
+        if (!empty($id)) {
+            $modelname = singular("M" . $this->class);
+            $this->template->set('obj', $this->{"$modelname"}->get($id));
+            $this->template->set('obj', $this->{"$modelname"}->get_type_id());
+
+            $this->template->set('id', $id);
+            $this->template->set_block('edit', 'layouts/_edit.php');
+            $this->template->render();
+        }
+    }
+
     public function search(){
 
     }

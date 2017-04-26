@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js"></script>
+</head>
+<body>
+<div class="input-group input-daterange">
+    <input type="text" class="form-control" value="2012-04-05">
+    <span class="input-group-addon">to</span>
+    <input type="text" class="form-control" value="2012-04-19">
+</div>
+<script type="text/javascript">
+    $('.input-daterange input').each(function() {
+        $(this).datepicker("clearDates");
+    });
+</script>
+</body>
+</html>

@@ -27,7 +27,7 @@
             </li>
             <li class="lineMn"></li>
             <li class="subMn <?php if ($controller == 'calendar') echo 'active' ?>"><a
-                    href="<?php echo site_url('calendar/index'); ?>">Dangerous News Management</a>
+                    href="<?php echo site_url('dangerous/index'); ?>">Dangerous News Management</a>
             </li>
             <li class="lineMn"></li>
             <li class="subMn <?php if ($controller == 'category') echo 'active' ?>"><a

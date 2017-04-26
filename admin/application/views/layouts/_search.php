@@ -12,7 +12,13 @@
                                style="padding-top: 4px; margin-top: 10px"><?php echo $key ?></label>
                     </div>
                     <div class="col-sm-10">
-                        <?php select_tag() ?>
+                        <?php if($value == SELECT_TAG){
+                            select_tag_type($key);
+                         } else if($value == DATE_TAG){
+                            date_tag($key);
+                        } else{
+                            textbox_for($key);
+                        } ?>
                     </div>
 
                 </div>

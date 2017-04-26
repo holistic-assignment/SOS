@@ -1,3 +1,4 @@
+
 <div class="container-fluid">
     <div class="well">
     <h2>Striped Rows</h2>
@@ -22,10 +23,10 @@
                 <td><?php echo $value ?></td>
               <?php } ?>
               <td>
-              <button type="button" class="btn btn-primary">Edit</button>
+                  <a href="<?php echo base_url()."index.php/$controller/show?id=$row[id]"?>" class="btn btn-primary" role="button">Edit</a>
               </td>
               <td>
-                  <button type="button" class="btn btn-danger">Delete</button>
+                  <a href="<?php echo base_url()."index.php/$controller/delete?id=$row[id]"?>" class="btn btn-danger" role="button">Delete</a>
               </td>
           </tr>
           <?php }}?>

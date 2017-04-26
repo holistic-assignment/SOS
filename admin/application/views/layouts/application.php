@@ -16,6 +16,7 @@ $segment = $this->uri->segment(3) ? $this->uri->segment(3) : '';
     <link href="<?php echo base_url('common/css/elements.css'); ?>" type="text/css" rel="stylesheet">
     <link href="<?php echo base_url('common/css/colorbox.css'); ?>" type="text/css" rel="stylesheet">
     <link href="<?php echo base_url('common/css/_theme.css'); ?>" type="text/css" rel="stylesheet">
+
     <script
         type="application/javascript" src="<?php echo base_url('common/js/jquery-1.10.2.min.js') ?>"
     ></script>
@@ -29,6 +30,9 @@ $segment = $this->uri->segment(3) ? $this->uri->segment(3) : '';
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js"></script>
 
 </head>
 <body>
@@ -49,9 +53,7 @@ $segment = $this->uri->segment(3) ? $this->uri->segment(3) : '';
             <li class="active">管理カレンダー</li>
         </ul>
         <div class="col-sm-12">
-            <div class="row" style="">
-
-            </div>
+           <?php if($action == "index"){?>
             <div class="row" style="width: 100%">
                 <div class="search-box">
                     <?php echo $this->template->block('search','default/view', array('search'=>$search)) ?>
@@ -62,9 +64,23 @@ $segment = $this->uri->segment(3) ? $this->uri->segment(3) : '';
                     <?php echo $this->template->block('index','default/view', array('select_field'=>$select_field )) ?>
                 </div>
             </div>
+            <?php }else{?>
+            <div class="row" style="width: 100%">
+                <div class="content-box">
+                    <?php echo $this->template->block($action,'default/view', array('obj'=> $obj,'controller' => $controller, 'action' => $action,'id'=>$id)) ?>
+                </div>
+            </div>
+            <?php }?>
         </div>
     </div>
 </div>
-
 </body>
+<script type="text/javascript">
+    $('.input-daterange input').each(function() {
+
+        $(this).datepicker({
+            format: "yyyy/mm/dd"
+        });
+    });
+</script>
 </html>
