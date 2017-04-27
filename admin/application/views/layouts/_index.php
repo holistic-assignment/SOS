@@ -58,14 +58,14 @@
                         <a href="<?php echo current_url() . '?' . $_SERVER['QUERY_STRING'] . "&page=$i" ?>"><?php echo $i + 1 ?></a>
                     </li>
                 <?php } ?>
-                <input type="hidden" name="user_check[]" />
+
             </ul>
-            <input style="margin-top: 10px" class="btn btn-default" type="submit" value="Push" class="btn btn-default">
+            <button style="margin-top: 10px" class="btn btn-default" type="button"  class="btn btn-default" id="btn_submit">Submit</button>
         </form>
 
     </div>
 </div>
-<script>
+<script type="text/javascript">
     var checkboxValues = JSON.parse(localStorage.getItem('checkboxValues')) || {};
     var $checkboxes = $(".checkbox :checkbox");
 
@@ -75,14 +75,22 @@
         });
         localStorage.setItem("checkboxValues", JSON.stringify(checkboxValues));
     });
-    $(document).on("pageload",function(){
-        alert("pageload event fired!");
-    })
     $(window).on('load',function(){
-        $.each(checkboxValues, function (key,$value) {
-            $("#" + key).prop('checked', $value);
+        $.each(checkboxValues, function (key,value) {
+            $("#" + key).prop('checked', value);
         }
     )});
+    $('#btn_submit').on('click', function () {
+       $.ajax({
+           type: "POST",
+           dataType: "json",
+           url: "/admin/index.php/pushes/send?XDEBUG_SESSION_START=1",
+           crossDomain: true,
+           data: {myData: checkboxValues},
+           contentType: "application/x-www-form-urlencoded",
+       });
+    })
+
 
 
 

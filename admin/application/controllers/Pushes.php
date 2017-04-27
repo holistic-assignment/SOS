@@ -23,7 +23,7 @@ class Pushes extends MY_Controller {
     public function send(){
 
         var_dump($_POST);
-        $user_list = $_POST['user_check'];
+        $user_list = $_POST['myData'];
         $this->template->render();
     }
 }
