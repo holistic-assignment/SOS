@@ -15,7 +15,7 @@
                 <?php } ?>
                 </tbody>
             </table>
-            <a style="margin-top: 10px" class="btn btn-default" href="<?php echo base_url()."index.php/$controller/edit?id=$id"?>" role="button">Edit</a>
+            <a style="margin-top: 10px" class="btn btn-default" href="<?php echo base_url()."index.php/$controller/edit?id=$obj->id"?>" role="button">Edit</a>
             <button style="margin-top: 10px" class="btn btn-default" onclick="goBack()">Go Back</button>
         </form>
     </div>

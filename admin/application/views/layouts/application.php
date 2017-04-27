@@ -16,17 +16,15 @@ $segment = $this->uri->segment(3) ? $this->uri->segment(3) : '';
     <link href="<?php echo base_url('common/css/elements.css'); ?>" type="text/css" rel="stylesheet">
     <link href="<?php echo base_url('common/css/colorbox.css'); ?>" type="text/css" rel="stylesheet">
     <link href="<?php echo base_url('common/css/_theme.css'); ?>" type="text/css" rel="stylesheet">
+    <script  src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
-    <script
-        type="application/javascript" src="<?php echo base_url('common/js/jquery-1.10.2.min.js') ?>"
-    ></script>
     <script type="application/javascript" src="<?php echo base_url('common/js/bootstrap/bootstrap.js'); ?>"></script>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -61,13 +59,13 @@ $segment = $this->uri->segment(3) ? $this->uri->segment(3) : '';
             </div>
             <div class="row" style="width: 100%">
                 <div class="content-box">
-                    <?php echo $this->template->block('index','default/view', array('select_field'=>$select_field )) ?>
+                    <?php echo $this->template->block('index','default/view', array('select_field'=>$select_field , 'count' => $count )) ?>
                 </div>
             </div>
             <?php }else{?>
             <div class="row" style="width: 100%">
                 <div class="content-box">
-                    <?php echo $this->template->block($action,'default/view', array('obj'=> $obj,'controller' => $controller, 'action' => $action,'id'=>$id)) ?>
+                    <?php echo $this->template->block($action,'default/view', array('obj'=> $obj,'controller' => $controller, 'action' => $action)) ?>
                 </div>
             </div>
             <?php }?>

@@ -1,12 +1,12 @@
 <?php
-function textbox_for($name = "nguyen")
+function textbox_for($name = "nguyen",$value="")
 {
 
     echo '<input type="text" name="' . $name . '"
-                               style="width:164px;height:30px;padding: 4px 6px;margin-top: 10px">';
+                               style="width:164px;height:30px;padding: 4px 6px;margin-top: 10px" value = "'.$value.'">';
 }
 
-
+//Show Tag
 function select_tag_type($name){
     if($name == 'os'){
         select_tag('os',array('OS','Android'));
@@ -30,6 +30,7 @@ function date_tag($name){
     echo $open_tag.$body_tag.$end_tag;
 }
 
+
 function select_tag($name,$resource = array())
 {   $open_tag = '<select name="'.$name.'" class="form-control" id="sel1" style="width:164px;height:30px;padding: 4px 6px;margin-top: 10px">';
     $close_tag = '</select>';
@@ -40,4 +41,15 @@ function select_tag($name,$resource = array())
        $i++;
     }
     echo $open_tag . $body_tag . $close_tag;
+}
+
+
+//Edit tag
+
+
+function edti_date_tag($name,$value=""){
+    $open_tag = "<div class=\"input-daterange input-group\" id=\"datepicker\">";
+    $body_tag = "<input type=\"text\" class=\"input-sm form-control\" name=\"{$name}\" style=\"width:164px;height:30px;padding: 4px 6px;margin-top: 10px\" value=\"$value\" />";
+    $end_tag = "</div>";
+    echo $open_tag.$body_tag.$end_tag;
 }
