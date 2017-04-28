@@ -1,8 +1,10 @@
 <?php
-function textbox_for($name = "nguyen",$value="")
+function textbox_for($name = "nguyen",$value="",$type = 'text')
 {
-
-    echo '<input type="text" name="' . $name . '"
+    if($name=="push_type" && $type =="hidden"){
+        $value = 1;
+    }
+    echo '<input type="'.$type.'" name="' . $name . '"
                                style="width:164px;height:30px;padding: 4px 6px;margin-top: 10px" value = "'.$value.'">';
 }
 
@@ -18,6 +20,8 @@ function select_tag_type($name){
         select_tag('message_type',array('send message', 'call message'));
     }else if($name == 'env_flag'){
         select_tag('env_flag',array('production', 'sandbox'));
+    }else if($name == 'post_type'){
+        select_tag('post_type',array('post confirm safety','post message'));
     }
 }
 

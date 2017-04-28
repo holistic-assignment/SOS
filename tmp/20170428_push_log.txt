@@ -1,0 +1,126 @@
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:08:46 +09006471INFO: Trying tls://gateway.push.apple.com:2195...
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:08:47 +09006471INFO: Connected to tls://gateway.push.apple.com:2195.
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:08:47 +09006471<br>Connect time: 1.5411648750305
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:08:47 +09006471INFO: Sending messages queue, run #1: 1 message(s) left in queue.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:08:47 +09006471STATUS: Sending message ID 1 [custom identifier: unset] (1/3): 94 bytes.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:08:47 +09006471Proccess time: 1.564857006073
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:08:47 +09006471INFO: Disconnected.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:08:47 +09006471INFO: Trying tls://gateway.sandbox.push.apple.com:2195...
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:08:48 +09006471INFO: Connected to tls://gateway.sandbox.push.apple.com:2195.
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:08:48 +09006471<br>Connect time: 1.0044729709625
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:08:48 +09006471INFO: Sending messages queue, run #1: 1 message(s) left in queue.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:08:48 +09006471STATUS: Sending message ID 1 [custom identifier: unset] (1/3): 94 bytes.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:08:49 +09006471Proccess time: 2.0168278217316
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:08:49 +09006471INFO: Disconnected.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:09:57 +09007136INFO: Trying tls://gateway.push.apple.com:2195...
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:09:58 +09007136INFO: Connected to tls://gateway.push.apple.com:2195.
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:09:58 +09007136<br>Connect time: 0.82568383216858
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:09:58 +09007136INFO: Sending messages queue, run #1: 1 message(s) left in queue.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:09:58 +09007136STATUS: Sending message ID 1 [custom identifier: unset] (1/3): 129 bytes.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:09:58 +09007136Proccess time: 0.83718299865723
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:09:58 +09007136INFO: Disconnected.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:09:58 +09007136INFO: Trying tls://gateway.sandbox.push.apple.com:2195...
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:09:59 +09007136INFO: Connected to tls://gateway.sandbox.push.apple.com:2195.
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:09:59 +09007136<br>Connect time: 0.84009099006653
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:09:59 +09007136INFO: Sending messages queue, run #1: 1 message(s) left in queue.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:09:59 +09007136STATUS: Sending message ID 1 [custom identifier: unset] (1/3): 129 bytes.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:10:00 +09007136Proccess time: 1.8524849414825
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:10:00 +09007136INFO: Disconnected.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:18 +09006474INFO: Trying tls://gateway.push.apple.com:2195...
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:19 +09006474INFO: Connected to tls://gateway.push.apple.com:2195.
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:19 +09006474<br>Connect time: 0.82108592987061
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:19 +09006474INFO: Sending messages queue, run #1: 1 message(s) left in queue.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:19 +09006474STATUS: Sending message ID 1 [custom identifier: unset] (1/3): 129 bytes.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:19 +09006474Proccess time: 0.8321328163147
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:19 +09006474INFO: Disconnected.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:19 +09006474INFO: Trying tls://gateway.sandbox.push.apple.com:2195...
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:20 +09006474INFO: Connected to tls://gateway.sandbox.push.apple.com:2195.
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:20 +09006474<br>Connect time: 1.0314798355103
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:20 +09006474INFO: Sending messages queue, run #1: 1 message(s) left in queue.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:20 +09006474STATUS: Sending message ID 1 [custom identifier: unset] (1/3): 129 bytes.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:21 +09006474Proccess time: 2.0438067913055
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:21 +09006474INFO: Disconnected.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:41 +09007783INFO: Trying tls://gateway.push.apple.com:2195...
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:42 +09007783INFO: Connected to tls://gateway.push.apple.com:2195.
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:42 +09007783<br>Connect time: 0.64958214759827
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:42 +09007783INFO: Sending messages queue, run #1: 1 message(s) left in queue.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:42 +09007783STATUS: Sending message ID 1 [custom identifier: unset] (1/3): 129 bytes.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:42 +09007783Proccess time: 0.66061902046204
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:42 +09007783INFO: Disconnected.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:42 +09007783INFO: Trying tls://gateway.sandbox.push.apple.com:2195...
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:42 +09007783INFO: Connected to tls://gateway.sandbox.push.apple.com:2195.
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:42 +09007783<br>Connect time: 0.84391283988953
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:42 +09007783INFO: Sending messages queue, run #1: 1 message(s) left in queue.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:42 +09007783STATUS: Sending message ID 1 [custom identifier: unset] (1/3): 129 bytes.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:43 +09007783Proccess time: 1.8558609485626
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:15:43 +09007783INFO: Disconnected.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:16 +09007127INFO: Trying tls://gateway.push.apple.com:2195...
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:17 +09007127INFO: Connected to tls://gateway.push.apple.com:2195.
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:17 +09007127<br>Connect time: 1.0007419586182
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:17 +09007127INFO: Sending messages queue, run #1: 1 message(s) left in queue.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:17 +09007127STATUS: Sending message ID 1 [custom identifier: unset] (1/3): 159 bytes.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:17 +09007127Proccess time: 1.0118410587311
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:17 +09007127INFO: Disconnected.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:17 +09007127INFO: Trying tls://gateway.sandbox.push.apple.com:2195...
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:19 +09007127INFO: Connected to tls://gateway.sandbox.push.apple.com:2195.
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:19 +09007127<br>Connect time: 1.2344689369202
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:19 +09007127INFO: Sending messages queue, run #1: 1 message(s) left in queue.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:19 +09007127STATUS: Sending message ID 1 [custom identifier: unset] (1/3): 159 bytes.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:20 +09007127Proccess time: 2.2464709281921
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:20 +09007127INFO: Disconnected.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:34 +09007131INFO: Trying tls://gateway.push.apple.com:2195...
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:35 +09007131INFO: Connected to tls://gateway.push.apple.com:2195.
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:35 +09007131<br>Connect time: 0.83397006988525
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:35 +09007131INFO: Sending messages queue, run #1: 1 message(s) left in queue.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:35 +09007131STATUS: Sending message ID 1 [custom identifier: unset] (1/3): 159 bytes.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:35 +09007131Proccess time: 0.84503102302551
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:35 +09007131INFO: Disconnected.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:35 +09007131INFO: Trying tls://gateway.sandbox.push.apple.com:2195...
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:36 +09007131INFO: Connected to tls://gateway.sandbox.push.apple.com:2195.
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:36 +09007131<br>Connect time: 0.78987503051758
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:36 +09007131INFO: Sending messages queue, run #1: 1 message(s) left in queue.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:36 +09007131STATUS: Sending message ID 1 [custom identifier: unset] (1/3): 159 bytes.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:37 +09007131Proccess time: 1.8018939495087
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:17:37 +09007131INFO: Disconnected.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:19 +09007136INFO: Trying tls://gateway.push.apple.com:2195...
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:19 +09007136INFO: Connected to tls://gateway.push.apple.com:2195.
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:19 +09007136<br>Connect time: 0.65678787231445
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:19 +09007136INFO: Sending messages queue, run #1: 1 message(s) left in queue.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:19 +09007136STATUS: Sending message ID 1 [custom identifier: unset] (1/3): 107 bytes.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:19 +09007136Proccess time: 0.66788196563721
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:19 +09007136INFO: Disconnected.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:19 +09007136INFO: Trying tls://gateway.sandbox.push.apple.com:2195...
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:20 +09007136INFO: Connected to tls://gateway.sandbox.push.apple.com:2195.
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:20 +09007136<br>Connect time: 0.84368991851807
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:20 +09007136INFO: Sending messages queue, run #1: 1 message(s) left in queue.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:20 +09007136STATUS: Sending message ID 1 [custom identifier: unset] (1/3): 107 bytes.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:21 +09007136Proccess time: 1.8553750514984
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:21 +09007136INFO: Disconnected.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:40 +09006470INFO: Trying tls://gateway.push.apple.com:2195...
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:41 +09006470INFO: Connected to tls://gateway.push.apple.com:2195.
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:41 +09006470<br>Connect time: 0.67456007003784
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:41 +09006470INFO: Sending messages queue, run #1: 1 message(s) left in queue.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:41 +09006470STATUS: Sending message ID 1 [custom identifier: unset] (1/3): 107 bytes.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:41 +09006470Proccess time: 0.68560099601746
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:41 +09006470INFO: Disconnected.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:41 +09006470INFO: Trying tls://gateway.sandbox.push.apple.com:2195...
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:42 +09006470INFO: Connected to tls://gateway.sandbox.push.apple.com:2195.
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:42 +09006470<br>Connect time: 0.81607890129089
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:42 +09006470INFO: Sending messages queue, run #1: 1 message(s) left in queue.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:42 +09006470STATUS: Sending message ID 1 [custom identifier: unset] (1/3): 107 bytes.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:43 +09006470Proccess time: 1.828057050705
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:19:43 +09006470INFO: Disconnected.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:20:18 +09007132INFO: Trying tls://gateway.push.apple.com:2195...
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:20:19 +09007132INFO: Connected to tls://gateway.push.apple.com:2195.
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:20:19 +09007132<br>Connect time: 0.66973400115967
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:20:19 +09007132INFO: Sending messages queue, run #1: 1 message(s) left in queue.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:20:19 +09007132STATUS: Sending message ID 1 [custom identifier: unset] (1/3): 107 bytes.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:20:19 +09007132Proccess time: 0.68086194992065
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:20:19 +09007132INFO: Disconnected.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:20:19 +09007132INFO: Trying tls://gateway.sandbox.push.apple.com:2195...
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:20:20 +09007132INFO: Connected to tls://gateway.sandbox.push.apple.com:2195.
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:20:20 +09007132<br>Connect time: 0.8323380947113
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:20:20 +09007132INFO: Sending messages queue, run #1: 1 message(s) left in queue.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:20:20 +09007132STATUS: Sending message ID 1 [custom identifier: unset] (1/3): 107 bytes.<br>
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:20:21 +09007132Proccess time: 1.8443830013275
+%s ApnsPHP[%d]: %sFri, 28 Apr 2017 16:20:21 +09007132INFO: Disconnected.<br>

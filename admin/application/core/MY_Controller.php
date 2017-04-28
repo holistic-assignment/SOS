@@ -7,6 +7,8 @@ class MY_Controller extends CI_Controller
 
     protected $controller;
 
+    protected $params;
+
     protected $action;
     public function __construct()
     {
@@ -16,6 +18,7 @@ class MY_Controller extends CI_Controller
         $this->load->library('template');
         $this->class = ucwords($this->router->fetch_class());
         $method = strtolower($this->router->fetch_method());
+
         $this->load->model(array(singular("M".$this->class)));
         $this->controller = $this->router->fetch_class();
         $this->action = $this->router->fetch_method();
@@ -72,8 +75,10 @@ class MY_Controller extends CI_Controller
             $this->template->render();
         }
         if($_SERVER['REQUEST_METHOD'] == 'POST'){
-            $params = $this->input->post();
-            $this->{"$modelname"}->create($params);
+            if(empty($this->params)) {
+                $this->params = $this->input->post();
+            }
+            $this->{"$modelname"}->create($this->params);
             redirect("$this->controller/index");
         }
     }

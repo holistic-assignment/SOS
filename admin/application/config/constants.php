@@ -84,9 +84,9 @@ defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 const TIME_ZONE ='Asia/Tokyo';
-const LIMIT = 2;
+const LIMIT = 70;
 //SEARCH
-const HIDE_USER_FIELD = array('id', 'password','token','device_id','del_flag','created_at','updated_at','device_token');
+const HIDE_USER_FIELD = array('id', 'password','token','device_id','del_flag','created_at','updated_at','device_token','env_flag');
 const HIDE_MESSAGE_FIELD = array('user_id');
 const HIDE_NEWS_FIELD = array();
 const HIDE_DANGEROUS_FIELD = array();
@@ -97,13 +97,13 @@ const SELECT_USER_FIELD = array('id','name', 'email','lat','lng','os','gsmatcode
 const SELECT_NEWS_FIELD = array('id', 'title','content','publish_flag','url');
 const SELECT_MESSAGE_FIELD = array('id', 'title','content','message_type','del_flag','send_flag');
 const SELECT_DANGEROUS_FIELD =  array('id','title','content','lat','lng','radius','created_at','updated_at');
-const SELECT_PUSH_FIELD = array();
+const SELECT_PUSH_FIELD = array('id','push_type','content');
 //all
 const SELECT_ALL_FIELD = array();
 
 
 //view helper
-const SELECT_TAG_FIELD = array('os','publish_flag','del_flag','message_type','env_flag');
+const SELECT_TAG_FIELD = array('os','publish_flag','del_flag','message_type','env_flag','post_type');
 const DATE_TIME_FIELD = array('updated_at','created_at');
 const SELECT_TAG = "SELECT_TAG";
 const DATE_TAG = "DATE_TAG";
@@ -115,3 +115,10 @@ const HIDE_NEW_BUTTON = array('users');
 
 const CHECKED_BOX_BUTTON = array('users');
 
+//view hidden filed
+
+const HIDDEN_USER_VIEW = array('id','password','token','device_id','device_token','env_flag');
+const HIDDEN_PUSH_VIEW =array('id','push_type','user_id');
+const HIDDEN_MESSAGE_VIEW = array('id');
+const HIDDEN_NEWS_VIEW = array('id');
+const HIDDEN_DANGEROUS_VIEW = array('id');

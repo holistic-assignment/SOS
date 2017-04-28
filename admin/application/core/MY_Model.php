@@ -152,6 +152,9 @@ class MY_Model extends CI_Model
         if(count($params)>0)
         {
             $this->db->insert($this->table_name,$params);
+            $insert_id = $this->db->insert_id();
+            return $insert_id;
+
         }
         return $this->get_type();
     }

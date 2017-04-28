@@ -188,6 +188,9 @@ class Users extends MY_Controller
             //$message->setCustomIdentifier(sprintf("Message-Badge-%03d", $i));
 
             $message->setText($text);
+            //$message->setCustomProperty('type','1');
+            $message->setCustomProperty('dateUpdate',array("test"));
+            //$message->setCustomProperty('content',"asdasdasdasdasdas");
             // Set badge icon to "1"
             $message->setBadge(10);
 

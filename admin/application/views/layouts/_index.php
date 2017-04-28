@@ -6,7 +6,7 @@
             <a style="margin-bottom: 10px" href="<?php echo base_url() . "index.php/$controller/create" ?>"
                class="btn btn-default btn-lg" role="button">New</a>
         <?php } ?>
-        <form method="post" action="<?php echo base_url("index.php/pushes/send") ?> " id="frm_push">
+        <form method="GET" action="<?php echo base_url("index.php/pushes/create") ?> " id="frm_push">
             <table class="table table-striped">
                 <thead>
                 <tr>
@@ -29,7 +29,7 @@
                                 <td>
 
                                     <div class="checkbox">
-                                        <label><input type="checkbox" name="chk_push[]" id="<?php echo $row['id']?>"
+                                        <label><input type="checkbox" id="<?php echo $row['id']?>"
                                                       value="<?php echo $row["id"] ?>"></label>
                                     </div>
                                 </td>
@@ -53,14 +53,17 @@
                 </tbody>
             </table>
             <ul class="pagination" style="float: right">
+
+                <?php  $href = strpos($_SERVER['QUERY_STRING'], '&page') !== false ? substr($_SERVER['QUERY_STRING'],0,strpos($_SERVER['QUERY_STRING'], '&page')) : $_SERVER['QUERY_STRING'] ?>
                 <?php for ($i = 0; $i <= $total_page; $i++) { ?>
                     <li>
-                        <a href="<?php echo current_url() . '?' . $_SERVER['QUERY_STRING'] . "&page=$i" ?>"><?php echo $i + 1 ?></a>
+
+                        <a href="<?php echo current_url().'?' . $href . "&page=$i" ?>"><?php echo $i + 1 ?></a>
                     </li>
                 <?php } ?>
 
             </ul>
-            <button style="margin-top: 10px" class="btn btn-default" type="button"  class="btn btn-default" id="btn_submit">Submit</button>
+            <input style="margin-top: 10px" class="btn btn-default" type="submit"  class="btn btn-default">
         </form>
 
     </div>
@@ -80,16 +83,18 @@
             $("#" + key).prop('checked', value);
         }
     )});
-    $('#btn_submit').on('click', function () {
-       $.ajax({
-           type: "POST",
-           dataType: "json",
-           url: "/admin/index.php/pushes/send?XDEBUG_SESSION_START=1",
-           crossDomain: true,
-           data: {myData: checkboxValues},
-           contentType: "application/x-www-form-urlencoded",
-       });
-    })
+    $("#frm_push").submit( function(eventObj) {
+        $.each(checkboxValues,function (key,value) {
+            if(value == true) {
+                $('<input />').attr('type', 'hidden')
+                    .attr('name', "chk_push[]")
+                    .attr('value', key)
+                    .appendTo('#frm_push');
+            }
+        })
+
+        return true;
+    });
 
 
 

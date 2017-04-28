@@ -114,4 +114,5 @@ define('COMMON_PATH', $root_path . "/common/");
 define('DIS_PEM_FILE', COMMON_PATH ."pemfile/pushcert.pem");
 define('DEV_PEM_FILE', COMMON_PATH ."pemfile/pushcert.pem");
 define('STAGGING_DANGER','http://sosstag.wecsy.ex-cloud.biz/');
-define('API_CHECK_DANGER',STAGGING_DANGER.'api/index.php/users/checkDanger');
+define('LOCALHOST','http://localhost/');
+define('API_CHECK_DANGER',LOCALHOST.'api/index.php/users/checkDanger');
